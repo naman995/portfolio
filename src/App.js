@@ -1,10 +1,19 @@
+import { About, Contact, Experience, Footer, Header, Navbar, Portfolio, Services, Testimonials } from "Components/Index";
 import "./App.css";
-import { Navbar } from "Components/Navbar";
+ 
 function App() {
- const url =""
+  
   return (
-    <div className={{BackgoundImage:url("")}}>
-      <Navbar />
+    <div >
+      <Header/>
+      <Navbar/>
+      <About/>
+      <Experience/>
+      <Services/>
+      <Portfolio/>
+      <Testimonials/>
+      <Contact/>
+      <Footer/>
     </div>
   );
 }
